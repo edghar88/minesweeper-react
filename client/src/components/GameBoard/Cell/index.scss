@@ -1,0 +1,23 @@
+.board-cell {
+  align-items: center;
+  background-color: #A0522D;
+  border: 1px solid #000;
+  display: flex;
+  height: 25px;
+  justify-content: center;
+  user-select: none;
+  width: 25px;
+
+  &__revealed {
+    background-color: lightgreen;
+  }
+
+  &__hit-mine {
+    background-color: #FF1111;
+  }
+}
+
+.number {
+  color: #228B22;
+  font-weight: 700;
+}

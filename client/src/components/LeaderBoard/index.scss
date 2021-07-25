@@ -1,0 +1,40 @@
+.leaderboard-wrapper {
+  margin-bottom: 4rem;
+  margin-top: 2.5rem;
+
+  h4 {
+    text-decoration: underline;
+  }
+
+  .leaderboard-switcher {
+    button {
+      background-color: #999;
+      border: none;
+      border-radius: 8px;
+      color: #FFF;
+      cursor: pointer;
+      margin: 0 2rem;
+      padding: 0.5rem;
+
+      &.selected {
+        background-color: transparent;
+        color: black;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .leaderboard-body {
+    display: flex;
+    justify-content: center;
+  
+    > div {
+      width: 25%;
+      text-align: left;
+
+      &:first-of-type {
+        margin-left: 12.5%;
+      }
+    }
+  }
+}

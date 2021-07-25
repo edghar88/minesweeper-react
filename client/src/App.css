@@ -1,0 +1,51 @@
+.App {
+  background-color: #BBB;
+  height: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #FFF;
+}
+
+.dark-mode .settings-modal,
+.dark-mode .prompt-modal {
+  background-color: #555;
+}
+
+.dark-mode .settings-modal .options-button__selected,
+.dark-mode .selected {
+  color: #FFF !important;
+}
+
+.interaction-button {
+  background-color: #FF1111;
+  border: none;
+  border-radius: 8px;
+  color: #FFF;
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.interaction-button:disabled {
+  opacity: 0.4;
+}
+
+a:visited {
+  color: #FF1111;
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
