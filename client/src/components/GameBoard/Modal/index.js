@@ -36,7 +36,8 @@ const Modal = (props) => {
           <li><button className={`options-button ${page === 0 && 'options-button__selected'}`} onClick={() => setPage(0)}>Game Difficulty</button></li>
           <li><button className={`options-button ${page === 1 && 'options-button__selected'}`} onClick={() => setPage(1)}>Display Settings</button></li>
           <li><button className={`options-button ${page === 2 && 'options-button__selected'}`} onClick={() => setPage(2)}>Instructions</button></li>
-          <li><button className={`options-button ${page === 3 && 'options-button__selected'}`} onClick={() => setPage(3)}>Import/Export</button></li>
+          {/* TODO */}
+          {/* <li><button className={`options-button ${page === 3 && 'options-button__selected'}`} onClick={() => setPage(3)}>Import/Export</button></li> */}
         </ul>
         {page === 0 && (
           <>

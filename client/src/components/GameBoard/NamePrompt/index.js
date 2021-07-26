@@ -40,11 +40,11 @@ const NamePrompt = (props) => {
           <input onChange={e => setName(e.target.value)} placeholder="Enter name..." />
         </div>
         <div className="social-share">
-          <a href={`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fminesweeper-react-eh.heroku.com&quote=I%20just%20beat%20Minesweeper%20in%20${Math.round(timer)}%20seconds%20on%20${difficulty}%20difficulty!`} rel="noreferrer" target="_blank">
+          <a href={`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fminesweeper-react-eh.herokuapp.com&quote=I%20just%20beat%20Minesweeper%20in%20${Math.round(timer)}%20seconds%20on%20${difficulty}%20difficulty!`} rel="noreferrer" target="_blank">
             Share on Facebook
           </a>
           <div>or</div>
-          <a href={`https://twitter.com/intent/tweet?text=I%20just%20beat%20%23Minesweeper%20in%20${Math.round(timer)}%20seconds%20on%20${difficulty}%20difficulty!&url=https%3A%2F%2Fminesweeper-react-eh.heroku.com`} rel="noreferrer" target="_blank">
+          <a href={`https://twitter.com/intent/tweet?text=I%20just%20beat%20%23Minesweeper%20in%20${Math.round(timer)}%20seconds%20on%20${difficulty}%20difficulty!&url=https%3A%2F%2Fminesweeper-react-eh.herokuapp.com`} rel="noreferrer" target="_blank">
             Share on Twitter
           </a>
         </div>
